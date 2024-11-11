@@ -14,7 +14,14 @@ try {
     echo "database connection fail :" . $th->getMessage();
 }
 
+if(isset($_POST['submit'])){
+    $data_name = $_POST['name'];
+    $data_email = $_POST['email'];
+    $data_pass = $_POST['password'];
+    $data_mess = $_POST['message'];
 
+    
+}
 
 
 
